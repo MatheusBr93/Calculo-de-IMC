@@ -30,8 +30,11 @@ Aplicativo que calcula o IMC do usuário, salva automaticamente os resultados no
 ## 📁 Estrutura do Projeto
 
 ├── App.js
+
 ├── firebase.js
+
 ├── package.json
+
 └── README.md
 
 
@@ -62,3 +65,14 @@ const firebaseConfig = {
   messagingSenderId: "SEU_MESSAGING_SENDER_ID",
   appId: "SEU_APP_ID"
 };
+## 🤝 Contribuição
+
+Contribuições são bem-vindas!  
+Sugestões podem ser enviadas via *Issues* ou *Pull Requests*.
+
+---
+
+## 📄 Licença
+
+Distribuído sob a licença **MIT**.  
+Livre para uso, modificação e distribuição.
