@@ -1,11 +1,64 @@
-# Sample Snack app
+# 📱 Calculadora de IMC com Histórico (Firebase + React Native + Expo Snack)
 
-Open the `App.js` file to start writing some code. You can preview the changes directly on your phone or tablet by scanning the **QR code** or use the iOS or Android emulators. When you're done, click **Save** and share the link!
+Aplicativo que calcula o IMC do usuário, salva automaticamente os resultados no Firebase Firestore e exibe um histórico completo com possibilidade de excluir registros. Desenvolvido em React Native e executado via Expo Snack.
 
-When you're ready to see everything that Expo provides (or if you want to use your own editor) you can **Download** your project and use it with [expo-cli](https://docs.expo.io/get-started/installation).
+---
 
-All projects created in Snack are publicly available, so you can easily share the link to this project via link, or embed it on a web page with the `<>` button.
+## 🚀 Funcionalidades
 
-If you're having problems, you can tweet to us [@expo](https://twitter.com/expo) or ask in our [forums](https://forums.expo.io/c/snack).
+- ✅ Cálculo do IMC com classificação automática  
+- ✅ Salvamento automático no Firebase Firestore  
+- ✅ Histórico em tempo real  
+- ✅ Listagem ordenada do mais recente ao mais antigo  
+- ✅ Botão para apagar registros individualmente  
+- ✅ Interface simples e intuitiva  
 
-Snack is Open Source. You can find the code on the [GitHub repo](https://github.com/expo/snack).
+---
+
+## 🛠️ Tecnologias Utilizadas
+
+- React Native  
+- Expo Snack  
+- Firebase v8 (compat)  
+- Firestore  
+- Styled-Components (opcional)  
+- React Native Paper  
+- Expo Vector Icons  
+
+---
+
+## 📁 Estrutura do Projeto
+
+├── App.js
+├── firebase.js
+├── package.json
+└── README.md
+
+
+---
+
+## 🔧 Como Rodar o Projeto no Expo Snack
+
+1. Acesse: https://snack.expo.dev  
+2. Adicione a dependência obrigatória:  
+   - `"firebase": "8.10.0"`
+3. Cole o código dos arquivos `App.js` e `firebase.js`.
+4. Insira suas credenciais Firebase no arquivo `firebase.js`.
+5. Habilite o Firestore no Console do Firebase.
+6. Execute nos dispositivos virtuais: Android, iOS ou Web.
+
+---
+
+## 🔥 Configuração do Firebase
+
+No arquivo `firebase.js`, substitua pelo seu próprio config:
+
+```javascript
+const firebaseConfig = {
+  apiKey: "SUA_API_KEY",
+  authDomain: "SEU_AUTH_DOMAIN",
+  projectId: "SEU_PROJECT_ID",
+  storageBucket: "SEU_STORAGE_BUCKET",
+  messagingSenderId: "SEU_MESSAGING_SENDER_ID",
+  appId: "SEU_APP_ID"
+};
