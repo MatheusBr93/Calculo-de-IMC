@@ -65,3 +65,18 @@ const firebaseConfig = {
   messagingSenderId: "SEU_MESSAGING_SENDER_ID",
   appId: "SEU_APP_ID"
 };
+
+##
+````
+## 🤝 Contribuição
+
+Contribuições são bem-vindas!  
+Sugestões podem ser enviadas via *Issues* ou *Pull Requests*.
+
+---
+
+## 📄 Licença
+
+Distribuído sob a licença **MIT**.  
+Livre para uso, modificação e distribuição.
+
